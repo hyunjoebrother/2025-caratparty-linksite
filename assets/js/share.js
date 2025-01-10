@@ -3,26 +3,27 @@ function shareKakao() {
   if (window.Kakao) {
     const kakao = window.Kakao;
     if (!kakao.isInitialized()) {
-      kakao.init("749ac3158ec581b70640aab383151bec");
+      kakao.init("69a870c263ff1f01303766a46942fbb1");
     }
 
     kakao.Link.sendDefault({
       objectType: "feed",
       content: {
-        title: "SnapshootPDF - 스냅슛PDF",
-        description: "쉽고, 편하고, 한번에 PDF 증거자료를 수집하세요",
-        imageUrl: "https://snapshoot.pics/og-image.png",
+        title: "2025 캐럿 생일 디제잉파티",
+        description: "2025 캐럿 생일 디제잉파티 예약하기",
+        imageUrl:
+          "https://hyunjoebrother.github.io/2025-caratparty-linksite/og-image.jpg",
         link: {
-          mobileWebUrl: "https://snapshoot.pics/",
-          webUrl: "https://snapshoot.pics/",
+          mobileWebUrl: "https://x.com/Prof_Boo116",
+          webUrl: "https://x.com/Prof_Boo116",
         },
       },
       buttons: [
         {
-          title: "SnapshootPDF 📸",
+          title: "2025 캐럿 생일 디제잉파티 같이 가요",
           link: {
-            mobileWebUrl: "https://snapshoot.pics/",
-            webUrl: "https://snapshoot.pics/",
+            mobileWebUrl: "https://x.com/Prof_Boo116",
+            webUrl: "https://x.com/Prof_Boo116",
           },
         },
       ],
@@ -31,8 +32,8 @@ function shareKakao() {
 }
 
 function shareTwitter() {
-  let sendText = "📸 쉽고, 편하고, 한번에 PDF 증거자료를 수집하세요.";
-  let sendUrl = "https://snapshoot.pics/"; // 전달할 URL
+  let sendText = "2025 캐럿 생일 디제잉파티 같이 가요";
+  let sendUrl = "https://x.com/Prof_Boo116"; // 전달할 URL
   window.open(
     "https://twitter.com/intent/tweet?text=" + sendText + "&url=" + sendUrl
   );
@@ -59,6 +60,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const clipButton = shareCard.querySelector(".clip-button");
   clipButton.addEventListener("click", () =>
-    handleCopyClipBoard("https://snapshoot.pics/")
+    handleCopyClipBoard("https://x.com/Prof_Boo116")
   );
 });
