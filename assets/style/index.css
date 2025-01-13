@@ -77,7 +77,7 @@ ul {
 .info-box {
   width: 100%;
   text-align: center;
-  background-color: #f5f5fc;
+  background-color: #ffe6fd;
   border-radius: 0.5rem;
   border: 2px solid #343b45;
   margin-top: 2.6rem;
@@ -121,12 +121,12 @@ ul {
 .details ul {
   display: flex;
   flex-direction: column;
-  padding: 0.5rem 0;
+  padding: 0.6rem 0;
   text-align: left;
 }
 .details ul li {
   color: #4b4c4f;
-  padding: 0.5rem;
+  padding: 0.8rem;
 }
 
 .details h3 {
@@ -171,11 +171,13 @@ ul {
 }
 
 .project ul li p {
+  font-size: 0.9rem;
   font-weight: 600;
 }
 
 .project ul small {
-  color: #909090;
+  font-size: 0.8rem;
+  color: #eaeaea;
 }
 
 .social-media {
@@ -188,7 +190,7 @@ ul {
   border-radius: 0.5rem;
   backdrop-filter: blur(10px);
   border: 2px solid #343b45;
-  background-color: #f5f5fc;
+  background-color: #ffe6fd;
   padding: 1rem 0;
   transition: all 0.3s ease;
   display: flex;
@@ -239,7 +241,6 @@ footer img {
   width: 12rem;
 }
 
-
 @media only screen and (min-width: 1000px) {
   .wrapper {
     width: 55%;
@@ -261,14 +262,14 @@ footer img {
     font-size: 1rem;
   }
   .picture {
-    height: 8rem;
-    width: 8rem;
+    height: 10rem;
+    width: 10rem;
     border-radius: 100%;
     overflow: hidden;
   }
   .picture img {
-    height: 8rem;
-    width: 8rem;
+    height: 10rem;
+    width: 10rem;
   }
 
   .info-top {
@@ -353,7 +354,7 @@ footer img {
     margin-top: 2.2rem;
     justify-content: center;
   }
-  
+
   footer img {
     width: 10rem;
   }
